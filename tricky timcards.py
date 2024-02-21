@@ -28,6 +28,8 @@ for i in range(cases):
         minuteword = "minute"
     else:
         minuteword = "minutes"
+
     if minutes == 0:
         print(line[0] + "=" + str(hours), hourword)
-    else: print(line[0] + "=" + str(hours), hourword, minutes, minuteword)
+    else: 
+        print(line[0] + "=" + str(hours), hourword, minutes, minuteword)
