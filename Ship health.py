@@ -14,7 +14,7 @@ for i in range(cases):
             weight += 2
         elif line[0] == "HIGH":
             weight += 3
-
+quit
         if line[0] == "MEDIUM":
             health += int(line[1])*2
         elif int(line[1]) >= 0 and int(line[1]) <= 10:
